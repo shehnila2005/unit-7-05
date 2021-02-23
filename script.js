@@ -16,5 +16,5 @@ function movie () {
   } else if ((age <= 19) && (day === 'sunday' || day === 'saturday')) {
     document.getElementById('answer').innerHTML = 'yay weekend, no school!!'
   }
-    document.getElementById('movie').innerHTML = 'thank you for verifying your age and todays date'
+   document.getElementById('movie').innerHTML = 'thank you for verifying your age and todays date'
 }
