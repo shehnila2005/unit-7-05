@@ -13,7 +13,7 @@ function movie () {
   } else if ((age >= 18) && (day === 'monday' || day === 'tuesday' || day === 'wednesday' || day === 'friday' || day === 'thursday')) {
     document.getElementById('answer').innerHTML = 'time for work'
   } else if ((age >= 19) && (day === 'sunday' || day === 'saturday')) {
-     document.getElementById('answer').innerHTML = 'day off'
+    document.getElementById('answer').innerHTML = 'day off'
   } else if ((age <= 18) && (day === 'sunday' || day === 'saturday')) {
     document.getElementById('answer').innerHTML = 'yay weekend, no school!!'
   }
